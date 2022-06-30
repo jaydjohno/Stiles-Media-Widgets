@@ -1,0 +1,40 @@
+.sm-single-product-countdown.sm-product-countdown-wrap .sm-product-countdown 
+{
+  max-width: 370px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sm-single-product-countdown.sm-product-countdown-wrap .sm-product-countdown .cd-single 
+{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 25%;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  max-width: 25%;
+  padding: 2px;
+}
+
+.sm-single-product-countdown.sm-product-countdown-wrap .sm-product-countdown .cd-single .cd-single-inner 
+{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.sm-single-product-countdown.sm-product-countdown-wrap .sm-product-countdown .cd-single .cd-single-inner h3 
+{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 2px;
+  color: #ffffff;
+}
+
+.sm-single-product-countdown.sm-product-countdown-wrap .sm-product-countdown .cd-single .cd-single-inner p 
+{
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0;
+}

@@ -1,0 +1,36 @@
+.stiles-stock-progress-bar .smstock-info 
+{
+  color: #777;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.stiles-stock-progress-bar .smstock-info span 
+{
+  color: #333;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.stiles-stock-progress-bar .smprogress-area 
+{
+  background-color: #444444;
+  width: 100%;
+}
+
+.stiles-stock-progress-bar .smprogress-area
+{
+  height: 10px;
+}
+
+.stiles-stock-progress-bar .smprogress-bar
+{
+  height: 100%;
+}
+
+.stiles-stock-progress-bar .smprogress-bar
+{
+   background-color: #ff4136;
+}

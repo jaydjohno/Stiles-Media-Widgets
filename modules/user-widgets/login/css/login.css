@@ -1,0 +1,34 @@
+.elementor-widget-stiles-login button, [type="submit"], [type="button"] 
+{
+	border: none;
+}
+
+.smw-login-message-error
+{
+ color:#a94442;
+ background-color:#f2dede;
+ border-color:#e8c4c4;
+ padding:15px;
+ margin-top:20px;
+ margin-bottom:20px;
+}
+
+.smw-login-message-warning
+{
+ color:#8a6d3b;
+ background-color:#fcf8e3;
+ border-color:#f9f0c3;
+ padding:15px;
+ margin-top:20px;
+ margin-bottom:20px;
+}
+
+.smw-login-message-success
+{
+ color:#3c763d;
+ background-color:#dff0d8;
+ border-color:#cae6be;
+ padding:15px;
+ margin-top:20px;
+ margin-bottom:20px;
+}

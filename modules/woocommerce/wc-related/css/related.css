@@ -1,0 +1,9 @@
+.elementor-widget-sm-product-related .products > h2,.elementor-widget-wl-product-additional-information h2,.elementor-widget-wl-single-product-upsell .up-sells > h2
+{
+  display: none;
+}
+
+.elementor-widget-sm-product-related.wlsmshow-heading-yes .products > h2,.elementor-element.sm-show-heading-yes .up-sells > h2,.elementor-widget-wl-product-additional-information.sm-show-heading-yes h2
+{
+  display: block;
+}

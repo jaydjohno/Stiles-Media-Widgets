@@ -1,0 +1,46 @@
+.stiles_product_social_share 
+{
+  align-items: center;
+  display: flex;
+  margin-top: 32px;
+}
+
+.stiles_product_social_share h2 
+{
+  color: #666666;
+  font-size: 18px;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.stiles_product_social_share ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stiles_product_social_share ul li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.stiles_product_social_share ul li:last-child
+{
+    margin-right: 0 !important;
+}
+
+.stiles_product_social_share ul li a 
+{
+  color: #797979;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+.stiles_product_social_share ul li a:hover
+{
+  color: #ff4136;
+}

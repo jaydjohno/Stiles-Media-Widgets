@@ -1,0 +1,80 @@
+.rtl .smw-faq-wrapper .smw-faq-container .smw-faq-accordion, 
+.smw-faq-wrapper .smw-faq-container .smw-faq-accordion
+{
+	overflow: hidden;
+}
+
+.smw-faq-accordion .smw-accordion-content p 
+{
+   margin-bottom: 0; 
+}
+
+.smw-accordion-icon-left
+{
+	float:left;
+}
+
+.smw-accordion-icon-right
+{
+	float:right;
+}
+
+.smw-accordion-icon
+{
+	display: inline-block;
+}
+
+.smw-faq-container .elementor-grid-item .smw-accordion-icon, 
+.smw-accordion-title.smw-title-active .smw-accordion-icon-closed, 
+.smw-accordion-title .smw-accordion-icon-opened
+{
+    display:none;
+}
+
+.smw-faq-container .smw-accordion-content
+{
+    display:none;
+}
+
+
+.smw-faq-container .elementor-grid-item .smw-accordion-content, 
+.smw-accordion-title.smw-title-active .smw-accordion-icon-opened
+{
+    display:block;
+}
+
+.smw-accordion-icon.smw-accordion-icon-right 
+{
+	margin-right: 10px;
+}
+
+.smw-faq-box-layout-yes .smw-faq-container:last-child
+{
+	border-bottom: none;
+}
+
+.smw-accordion-title
+{
+	cursor: pointer;
+}
+
+.smw-faq-accordion.elementor-grid-item .smw-accordion-title
+{
+	cursor: default;
+}
+
+.smw-accordion-icon
+{
+	max-width:7px; 
+}
+
+
+.smw-question-span:focus 
+{	
+	outline: thin dotted;
+}
+
+.smw-warning
+{
+	margin: 10px 0 10px 0;
+}

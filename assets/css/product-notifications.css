@@ -1,0 +1,140 @@
+.stiles-notification-content 
+{
+  position: fixed;
+  bottom: 10px;
+  background: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  left: -150px;
+  align-items: center;
+  box-shadow: 0 0 10px #ccc;
+  width: 450px;
+  border-radius: 10px;
+  z-index: 99999;
+}
+
+.stiles-notification-content .elementor
+{
+  width: 100%;
+}
+
+
+.stiles-notification-content.topleft 
+{
+  left: 10px;
+  top: 10px;
+  bottom: auto;
+}
+
+.stiles-notification-content.topright 
+{
+  left: auto;
+  right:10px;
+  top:10px;
+  bottom: auto;
+}
+
+.logged-in .stiles-notification-content.topleft,.logged-in .stiles-notification-content.topright 
+{
+  top:45px;
+}
+
+.stiles-notification-content.bottomleft 
+{
+  left: 10px;
+}
+
+.stiles-notification-content.bottomright 
+{
+  right: 10px;
+  left: auto;
+}
+
+.stiles-notification-content.imageright 
+{
+  flex-direction: row-reverse;
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.smnotification_image 
+{
+  padding-right: 15px;
+  flex: 0 0 25%;
+}
+
+.smnotification_image img
+{
+  border-radius: 5px;
+}
+
+.stiles-notification-content.imageright .smnotification_image 
+{
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.smnotification_content 
+{
+  flex: 0 0 75%;
+}
+
+.imageright .smnotification_content 
+{
+  text-align: right;
+}
+
+.smnotification_content h4,.smnotification_content h6
+{
+  margin: 0;
+  color: #000;
+}
+
+.smnotification_content h4
+{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.smnotification_content h6
+{
+  font-size: 14px;
+}
+
+.smnotification_content p 
+{
+  margin-bottom: 3px;
+  max-width: 450px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #7e7e7e;
+}
+
+.stiles-buyername 
+{
+  font-size: 12px;
+  float: right;
+}
+
+.imageright .stiles-buyername 
+{
+  float: left;
+}
+
+.smcross 
+{
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  color: #000;
+  font-size: 20px;
+  line-height: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.smcross:hover
+{
+  color: #f05b64;
+}

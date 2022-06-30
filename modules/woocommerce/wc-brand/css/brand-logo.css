@@ -1,0 +1,103 @@
+.sm-row.slick-slider
+{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.sm-single-brand 
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slick-slide .sm-single-brand
+{
+  margin-bottom: 0;
+}
+
+.slick-slide .sm-single-brand img 
+{
+  display: inline-block;
+}
+
+.product-slider .slick-arrow 
+{
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #ddd;
+  color: #ddd;
+  font-size: 20px;
+  height: 40px;
+  left: -30px;
+  line-height: inherit;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  z-index: 99;
+  transition: 0.4s;
+}
+
+.product-slider .slick-arrow.slick-next
+{
+    right: -30px;
+    left: auto;
+}
+
+.product-slider .slick-arrow:hover
+{
+    border-color: #333;
+    color: #333;
+}
+
+.product-slider .slick-dots 
+{
+  bottom: 0px;
+  display: flex;
+  left: 50%;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.product-slider .slick-dots li 
+{
+  line-height: 12px;
+  margin: 0 4px;
+}
+
+.product-slider .slick-dots li button 
+{
+  background-color: transparent;
+  border: 1px solid #4e4f4f;
+  border-radius: 50px;
+  height: 13px;
+  padding: 0;
+  text-indent: -9999px;
+  width: 13px;
+  line-height: 13px;
+}
+
+.product-slider .slick-dots li.slick-active button 
+{
+  background-color: #282828;
+  border-color: #282828;
+}
+
+.col2-set .col-1,.col2-set .col-2 
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col2-set .form-row
+{
+  display: block;
+}
+
+.slick-prev::before, .slick-next::before
+{
+    display: none;
+}

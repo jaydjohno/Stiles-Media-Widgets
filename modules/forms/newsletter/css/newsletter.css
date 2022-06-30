@@ -1,0 +1,28 @@
+.smw-newsletter-message.elementor-alert.error,
+{
+ color:#a94442;
+ background-color:#f2dede;
+ border-color:#e8c4c4;
+ padding:15px;
+ margin-top:20px;
+}
+
+.smw-newsletter-message-error
+{
+ color:#a94442;
+ background-color:#f2dede;
+ border-color:#e8c4c4;
+ padding:15px;
+ margin-top:20px;
+ margin-bottom:20px;
+}
+
+.mc4wp-form input[type*="text"],.mc4wp-form input[type*="email"]
+{
+    width: 100%;
+}
+
+.mc4wp-form-fields p
+{
+    float:left;
+}

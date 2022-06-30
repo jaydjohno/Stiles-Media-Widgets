@@ -1,0 +1,6 @@
+.single-product div.product form.cart .quantity 
+{
+    float: none;
+    margin: 0;
+    display: inline-block;
+}

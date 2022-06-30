@@ -1,0 +1,413 @@
+.stiles-add-to-cart-sticky 
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 0 9px rgba(0,0,0,.12);
+  transition: -webkit-transform .25s ease;
+  transition: transform .25s ease;
+  transition: transform .25s ease,-webkit-transform .25s ease;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.stiles-sticky-shown.stiles-add-to-cart-sticky 
+{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+.stiles-add-to-cart-sticky .sm-container .sm-row 
+{
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stiles-sticky-thumbnail 
+{
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.stiles-sticky-thumbnail img 
+{
+  max-width: 80px;
+}
+
+.stiles-addtocart-content 
+{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.stiles-addtocart-content .title 
+{
+  margin: 0;
+  font-size: 18px;
+}
+
+.stiles-addtocart-content .price 
+{
+  text-align: right;
+  font-size: 14px;
+}
+
+.stiles-sticky-btn-area 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.stiles-sticky-btn-area .yith-wcwl-add-to-wishlist
+{
+  display: none;
+}
+
+.stiles-sticky-btn-area .stiles-sticky-wishlist .yith-wcwl-add-to-wishlist
+{
+  display: block;
+}
+
+.stiles-sticky-btn-area .cart 
+{
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stiles-sticky-btn-area .quantity
+{
+  margin-right: 10px;
+}
+
+.stiles-sticky-btn-area .tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button 
+{
+  margin-top: 0;
+}
+
+.stiles-add-to-cart-sticky .tinv-wraper,.woocommerce .stiles-add-to-cart-sticky .wc-forward,.stiles-add-to-cart-sticky .wc-forward
+{
+  display: none;
+}
+
+.stiles-add-to-cart-sticky .stiles-sticky-wishlist .tinv-wraper
+{
+  display: block;
+}
+
+.stiles-sticky-wishlist .yith-wcwl-add-to-wishlist 
+{
+  margin-top: 0;
+}
+
+.yith-wcwl-add-to-wishlist.exists .yith-wcwl-wishlistaddedbrowse
+{
+  display: block !important;
+}
+
+.stiles-add-to-cart-sticky .button 
+{
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  border-radius: 0 !important;
+  margin-right: 10px !important;
+  background-color: #ff4136 !important;
+}
+
+.stiles-sticky-btn-area .stock.in-stock 
+{
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Normal  :1366px. */
+@media (min-width: 1200px) and (max-width: 1400px) 
+{
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) 
+{
+    .cus-col-5.sm-col-md-6 
+    {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+
+    .elementor-section .elementor-container 
+    {
+      padding: 0 15px;
+    }
+
+    .elementor-section.elementor-section-full_width .elementor-container 
+    {
+      padding: 0;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .cus-col-5.sm-col-md-6 
+    {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .elementor-section .elementor-container 
+    {
+      padding: 0 15px;
+    }
+
+    .elementor-section.elementor-section-full_width .elementor-container 
+    {
+      padding: 0;
+    }
+
+    .sm-columns-tablet-1 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .sm-columns-tablet-2 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .sm-columns-tablet-3 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 33.333%;
+      -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+
+    .sm-columns-tablet-4 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .sm-columns-tablet-5 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+
+    .sm-columns-tablet-6 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 16.666%;
+      -ms-flex: 0 0 16.666%;
+      flex: 0 0 16.666%;
+      max-width: 16.666%;
+    }
+
+    .sm-columns-tablet-7 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 14.285%;
+      -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%;
+      max-width: 14.285%;
+    }
+
+    .sm-columns-tablet-8 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 12.5%;
+      -ms-flex: 0 0 12.5%;
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+
+    .sm-columns-tablet-9 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 11.111%;
+      -ms-flex: 0 0 11.111%;
+      flex: 0 0 11.111%;
+      max-width: 11.111%;
+    }
+
+    .sm-columns-tablet-10 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 10%;
+      -ms-flex: 0 0 10%;
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) 
+{
+    .cus-col-5.sm-col-md-6 
+    {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .stiles-banner-img,.stiles-content
+    {
+      float: none;
+    }
+
+    .product-tab-list .nav a 
+    {
+      margin-bottom: 10px;
+      margin-right: 10px;
+      padding: 5px 10px;
+    }
+
+    .elementor-section .elementor-container 
+    {
+      padding: 0 15px;
+    }
+
+    .elementor-section.elementor-section-full_width .elementor-container 
+    {
+      padding: 0;
+    }
+
+
+    .stiles-notification-content 
+    {
+      width: 90%;
+    }
+
+    .stiles-sticky-btn-area 
+    {
+      justify-content: start;
+      margin-top: 15px;
+    }
+
+    .sm-columns-mobile-1 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .sm-columns-mobile-2 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .sm-columns-mobile-3 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 33.333%;
+      -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+
+    .sm-columns-mobile-4 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .sm-columns-mobile-5 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+
+    .sm-columns-mobile-6 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 16.666%;
+      -ms-flex: 0 0 16.666%;
+      flex: 0 0 16.666%;
+      max-width: 16.666%;
+    }
+
+    .sm-columns-mobile-7 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 14.285%;
+      -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%;
+      max-width: 14.285%;
+    }
+
+    .sm-columns-mobile-8 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 12.5%;
+      -ms-flex: 0 0 12.5%;
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+
+    .sm-columns-mobile-9 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 11.111%;
+      -ms-flex: 0 0 11.111%;
+      flex: 0 0 11.111%;
+      max-width: 11.111%;
+    }
+
+    .sm-columns-mobile-10 .sm-row > [class*="col-"]
+    {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 10%;
+      -ms-flex: 0 0 10%;
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+
+}

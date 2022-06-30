@@ -1,0 +1,97 @@
+.stiles_my_account_page 
+{
+  overflow: hidden;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-content .form-row 
+{
+  display: block;
+}
+
+.stiles_my_account_page{}
+
+.stiles-user-area 
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.stiles-user-image 
+{
+  margin-right: 20px;
+}
+
+.stiles-user-image img 
+{
+  border-radius: 100% !important;
+}
+
+.stiles-user-info span 
+{
+  display: block;
+}
+
+.stiles-username 
+{
+  font-size: 20px;
+}
+
+.stiles-logout 
+{
+  font-size: 14px;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #ddd;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul li 
+{
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  line-height: 1.5;
+}
+
+.stiles_my_account_page .woocommerce-MyAccount-navigation ul li a
+{
+  transition: 0.4s;
+}
+
+.woocommerce-account .stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation,.woocommerce-account .stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation
+{
+  width: 100%;
+  float: none;
+}
+
+.stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation ul,.stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation ul
+{
+  border:none;
+}
+
+.stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-navigation ul li,.stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-navigation ul li
+{
+  display: inline-block;
+  border-bottom: 0;
+  padding: 12px 10px;
+}
+
+.woocommerce-account .stiles_my_account_menu_pos_vtop .woocommerce-MyAccount-content,.woocommerce-account .stiles_my_account_menu_pos_vbottom .woocommerce-MyAccount-content
+{
+  width: 100%;
+  float: none;
+}
+
+.stiles_my_account_menu_pos_hright .woocommerce-MyAccount-navigation,.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-content
+{
+  float: right;
+}
+
+.stiles_my_account_menu_pos_hright .woocommerce-MyAccount-content,.stiles_my_account_menu_pos_hleft .woocommerce-MyAccount-navigation
+{
+  float: left;
+}

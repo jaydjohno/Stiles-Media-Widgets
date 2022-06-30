@@ -1,0 +1,126 @@
+.sm-special-banner .banner-thumb a 
+{
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.sm-special-banner .banner-thumb a::before 
+{
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 0;
+}
+
+.sm-special-banner .banner-thumb a::after 
+{
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s ease 0s;
+    width: 0;
+}
+
+.sm-special-banner .banner-thumb a img 
+{
+    width: 100%;
+}
+
+.sm-special-banner:hover .banner-thumb a::before 
+{
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.sm-special-banner:hover .banner-thumb a::after 
+{
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.sm-special-banner 
+{
+    position: relative;
+}
+
+.sm-special-banner .banner-content
+{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.sm-special-banner .banner-content a 
+{
+  color: #383838;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.stiles-banner-content-pos-center .banner-content
+{
+    top: 50%;
+    right: 0;
+    left: auto;
+    transform: translateY(-50%);
+}
+
+.stiles-banner-content-pos-bottom .banner-content 
+{
+  bottom: 0;
+  padding-bottom: 40px;
+}
+
+.stiles-banner-content-pos-top .banner-content 
+{
+  top: 0;
+  padding-top: 40px;
+}
+
+.sm-special-banner.stiles-banner-content-pos-right .banner-content 
+{
+  top: 50%;
+  right: 0;
+  width: auto;
+  transform: translateY(-50%);
+}
+
+.sm-special-banner.stiles-banner-content-pos-left .banner-content 
+{
+  top: 50%;
+  left: 0;
+  width: auto;
+  transform: translateY(-50%);
+}
+
+.sm-banner-badge-image
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.sm-banner-badge-image img
+{
+  width: 100%;
+}

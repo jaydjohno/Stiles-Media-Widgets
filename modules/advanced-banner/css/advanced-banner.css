@@ -1,0 +1,1024 @@
+.advanced-banner 
+
+{
+  overflow: hidden; 
+}
+
+.advanced-banner-ib 
+{
+  display: block;
+  position: relative; 
+}
+  .advanced-banner-ib img 
+{
+    display: block;
+    position: relative; 
+}
+
+.advanced-banner-img-wrap 
+{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  height: 100%; 
+}
+  .advanced-banner-img-wrap .advanced-banner-ib-img 
+{
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; 
+}
+
+.advanced-banner-ib 
+{
+  z-index: 1;
+  overflow: hidden;
+  margin: 0 0 35px;
+  text-align: center;
+  /* cursor: pointer;
+              */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+.advanced-banner-ib-desc .advanced-banner-read-more 
+{
+  z-index: 100; 
+}
+
+.advanced-banner-ib,
+.wpb_column > .wpb_wrapper .advanced-banner-ib 
+{
+  margin-bottom: 0px; 
+}
+
+.elementor-widget-premium-addon-banner .advanced-banner-ib-title 
+{
+  background: transparent; 
+}
+
+.advanced-banner-ib *,
+.advanced-banner-ib .advanced-banner-ib-desc 
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+}
+
+.advanced-banner-ib img 
+{
+  min-width: 100%;
+  max-width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s; 
+}
+
+.advanced-banner-ib .advanced-banner-ib-desc 
+{
+  padding: 15px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+.advanced-banner-ib .advanced-banner-ib-link 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0; 
+}
+
+.advanced-banner-ib a.advanced-banner-ib-link 
+{
+  display: block;
+  background: 0 0; 
+}
+
+.advanced-banner-animation1 img 
+{
+  width: -webkit-calc(100% + 50px) !important;
+  width: calc(100% + 50px) !important;
+  max-width: -webkit-calc(100% + 50px) !important;
+  max-width: calc(100% + 50px) !important;
+  -webkit-transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0); 
+}
+
+.advanced-banner-animation2 .advanced-banner-ib-title 
+{
+  padding: 15px; 
+}
+
+.advanced-banner-animation1 .advanced-banner-ib-desc 
+{
+  top: auto;
+  bottom: 0;
+  min-height: 25%;
+  height: auto;
+  max-height: 100%;
+  text-align: left; 
+}
+
+.advanced-banner-animation1 .advanced-banner-ib-content,
+.advanced-banner-animation1 .advanced-banner-ib-title,
+.advanced-banner-animation1 .advanced-banner-read-more 
+{
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s; 
+}
+
+.advanced-banner-animation1 .advanced-banner-ib-title 
+{
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation1 .advanced-banner-ib-content,
+.advanced-banner-animation1 .advanced-banner-read-more 
+{
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation1:hover .advanced-banner-ib-content,
+.advanced-banner-animation1.active .advanced-banner-ib-content,
+.advanced-banner-animation1:hover .advanced-banner-read-more,
+.advanced-banner-animation1.active .advanced-banner-read-more 
+{
+  opacity: 1;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s; 
+}
+
+.advanced-banner-animation1:hover .advanced-banner-ib-content,
+.advanced-banner-animation1.active .advanced-banner-ib-content,
+.advanced-banner-animation1:hover .advanced-banner-read-more,
+.advanced-banner-animation1.active .advanced-banner-read-more,
+.advanced-banner-animation1:hover .advanced-banner-ib-title,
+.advanced-banner-animation1.active .advanced-banner-ib-title,
+.advanced-banner-animation1:hover img,
+.advanced-banner-animation1.active img 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s; 
+}
+
+.advanced-banner-animation1.zoomout img,
+.advanced-banner-animation1.scale img 
+{
+  -webkit-transform: translate3d(-40px, 0, 0) scale(1.1);
+  transform: translate3d(-40px, 0, 0) scale(1.1); 
+}
+
+.advanced-banner-ib.sepia img 
+{
+  -webkit-filter: sepia(30%);
+  filter: sepia(30%); 
+}
+
+.advanced-banner-ib.bright img 
+{
+  -webkit-filter: brightness(1);
+  filter: brightness(1); 
+}
+
+.advanced-banner-ib.sepia:hover img 
+{
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%); 
+}
+
+.advanced-banner-ib.bright:hover img 
+{
+  -webkit-filter: brightness(1.2);
+  filter: brightness(1.2); 
+}
+
+.advanced-banner-animation1.advanced-banner-min-height img,
+.advanced-banner-animation2.advanced-banner-min-height img,
+.advanced-banner-animation4.advanced-banner-min-height img,
+.advanced-banner-animation5.advanced-banner-min-height img,
+.advanced-banner-animation6.advanced-banner-min-height img,
+.advanced-banner-animation13.advanced-banner-min-height img 
+{
+  height: auto; 
+}
+
+.advanced-banner-animation2 img 
+{
+  width: 100%; 
+}
+
+.advanced-banner-animation2 .advanced-banner-ib-desc::before 
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+  transform: translate3d(0, 50%, 0); 
+}
+
+.advanced-banner-animation2 .advanced-banner-ib-title 
+{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+  -webkit-transition: color 0.35s, -webkit-transform 0.35s;
+  transition: color 0.35s, -webkit-transform 0.35s;
+  transition: transform 0.35s, color 0.35s;
+  transition: transform 0.35s, color 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0); 
+}
+
+.advanced-banner-animation2 .advanced-banner-ib-content,
+.advanced-banner-animation2 .advanced-banner-read-more,
+.advanced-banner-animation2 .advanced-banner-ib-desc::before 
+{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation2 .advanced-banner-ib-content,
+.advanced-banner-animation2 .advanced-banner-read-more 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  max-height: 50%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0); 
+}
+
+.advanced-banner-animation2:hover .advanced-banner-ib-title,
+.advanced-banner-animation2.active .advanced-banner-ib-title 
+{
+  -webkit-transform: translate3d(0, -40px, 0);
+  transform: translate3d(0, -40px, 0); 
+}
+
+.advanced-banner-animation2:hover .advanced-banner-read-more,
+.advanced-banner-animation2.active .advanced-banner-read-more,
+.advanced-banner-animation2:hover .advanced-banner-ib-desc::before,
+.advanced-banner-animation2.active .advanced-banner-ib-desc::before 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation2:hover .advanced-banner-ib-content,
+.advanced-banner-animation2.active .advanced-banner-ib-content 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0); 
+}
+
+.advanced-banner-animation3 .advanced-banner-ib-title 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0); 
+}
+
+.advanced-banner-animation3 .advanced-banner-ib-desc::before,
+.advanced-banner-animation3 .advanced-banner-ib-title 
+{
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation3:hover .advanced-banner-ib-desc::before,
+.advanced-banner-animation3.active .advanced-banner-ib-desc::before,
+.advanced-banner-animation3:hover .advanced-banner-ib-title,
+.advanced-banner-animation3.active .advanced-banner-ib-title 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation3 .advanced-banner-ib-content 
+{
+  max-height: -webkit-calc(100% - 60px - 1.5em);
+  max-height: calc(100% - 60px - 1.5em);
+  overflow: hidden; 
+}
+
+.advanced-banner-animation4 img 
+{
+  width: -webkit-calc(100% + 40px) !important;
+  width: calc(100% + 40px) !important;
+  max-width: -webkit-calc(100% + 40px) !important;
+  max-width: calc(100% + 40px) !important; 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-desc 
+{
+  padding: 30px; 
+}
+  .advanced-banner-animation4 .advanced-banner-ib-desc::after 
+{
+    position: absolute;
+    content: "";
+    opacity: 0; 
+}
+  .advanced-banner-animation4 .advanced-banner-ib-desc::before 
+{
+    position: absolute;
+    content: "";
+    opacity: 0;
+    top: 50px;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0; 
+}
+  .advanced-banner-animation4 .advanced-banner-ib-desc::after 
+{
+    top: 30px;
+    right: 50px;
+    bottom: 30px;
+    left: 50px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0; 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-title 
+{
+  padding: 50px 30px 0 30px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-content,
+.advanced-banner-animation4 .advanced-banner-read-more 
+{
+  padding: 10px 30px;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0); 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-title,
+.advanced-banner-animation4 img 
+{
+  -webkit-transform: translate3d(-30px, 0, 0);
+  transform: translate3d(-30px, 0, 0); 
+}
+
+.advanced-banner-animation4.zoomout img,
+.advanced-banner-animation4.scale img 
+{
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.1);
+  transform: translate3d(-30px, 0, 0) scale(1.1); 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-content,
+.advanced-banner-animation4 .advanced-banner-read-more 
+{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation4 .advanced-banner-ib-desc::after, .advanced-banner-animation4 .advanced-banner-ib-desc::before 
+{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation4 img 
+{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation4:hover .advanced-banner-ib-desc::after,
+.advanced-banner-animation4.active .advanced-banner-ib-desc::after,
+.advanced-banner-animation4:hover .advanced-banner-ib-desc::before,
+.advanced-banner-animation4.active .advanced-banner-ib-desc::before 
+{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+
+.advanced-banner-animation4:hover .advanced-banner-ib-content,
+.advanced-banner-animation4.active .advanced-banner-ib-content,
+.advanced-banner-animation4:hover .advanced-banner-read-more,
+.advanced-banner-animation4.active .advanced-banner-read-more,
+.advanced-banner-animation4:hover .advanced-banner-ib-title,
+.advanced-banner-animation4.active .advanced-banner-ib-title 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation4:hover .advanced-banner-ib-content,
+.advanced-banner-animation4:hover .advanced-banner-ib-desc::after,
+.advanced-banner-animation4:hover .advanced-banner-ib-title,
+.advanced-banner-animation4:hover img 
+{
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s; 
+}
+
+/*.advanced-banner-animation4:hover img, .advanced-banner-animation4.active img 
+{
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+          
+}
+          */
+.advanced-banner-animation5 .advanced-banner-ib-desc 
+{
+  top: auto;
+  bottom: 0;
+  padding: 15px;
+  height: auto;
+  background: #f2f2f2;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); 
+}
+
+.advanced-banner-animation5 .advanced-banner-ib-content 
+{
+  position: absolute;
+  top: auto;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s; 
+}
+
+.advanced-banner-animation5 .advanced-banner-ib-title,
+.advanced-banner-animation5 .advanced-banner-read-more 
+{
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+  text-align: center; 
+}
+
+.advanced-banner-animation5 .advanced-banner-ib-title 
+{
+  margin: 10px 0; 
+}
+
+.advanced-banner-animation5:hover .advanced-banner-ib-content,
+.advanced-banner-animation5.active .advanced-banner-ib-content,
+.advanced-banner-animation5:hover .advanced-banner-ib-content *,
+.advanced-banner-animation5.active .advanced-banner-ib-content * 
+{
+  opacity: 1 !important;
+  z-index: 99 !important;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important; 
+}
+
+.advanced-banner-animation5:hover .advanced-banner-ib-desc,
+.advanced-banner-animation5.active .advanced-banner-ib-desc,
+.advanced-banner-animation5:hover .advanced-banner-ib-title,
+.advanced-banner-animation5.active .advanced-banner-ib-title,
+.advanced-banner-animation5:hover .advanced-banner-read-more,
+.advanced-banner-animation5.active .advanced-banner-read-more 
+{
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0); 
+}
+
+.advanced-banner-animation5:hover .advanced-banner-ib-title 
+{
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s; 
+}
+
+.advanced-banner-animation5 img 
+{
+  -webkit-transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation2 img,
+.advanced-banner-animation4 img,
+.advanced-banner-animation6 img 
+{
+  -webkit-transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-transform 0.35s; 
+}
+
+.advanced-banner-animation5.zoomout img,
+.advanced-banner-animation5.scale img 
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.advanced-banner-animation2.zoomout img,
+.advanced-banner-animation2.scale img 
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.advanced-banner-animation6.zoomout img,
+.advanced-banner-animation6.scale img 
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.advanced-banner-animation5.zoomin:hover img,
+.advanced-banner-animation2.zoomin:hover img,
+.advanced-banner-animation6.zoomin:hover img 
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.advanced-banner-animation5.zoomout:hover img,
+.advanced-banner-animation2.zoomout:hover img,
+.advanced-banner-animation6.zoomout:hover img 
+{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+
+.advanced-banner-animation5.scale:hover img,
+.advanced-banner-animation2.scale:hover img,
+.advanced-banner-animation6.scale:hover img 
+{
+  -webkit-transform: scale(1.2) rotate(5deg);
+  -ms-transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg); 
+}
+
+.advanced-banner-animation5.grayscale:hover img,
+.advanced-banner-animation2.grayscale:hover img,
+.advanced-banner-animation6.grayscale:hover img 
+{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+}
+
+.advanced-banner-animation5.blur:hover img,
+.advanced-banner-animation2.blur:hover img 
+{
+  -webkit-filter: blur(3px);
+  filter: blur(3px); 
+}
+
+.advanced-banner-animation6.blur:hover img 
+{
+  -webkit-filter: blur(3px);
+  filter: blur(3px); 
+}
+
+.advanced-banner-animation6 .advanced-banner-ib-desc 
+{
+  padding: 45px; 
+}
+  .advanced-banner-animation6 .advanced-banner-ib-desc::before 
+{
+    position: absolute;
+    content: "";
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff; 
+}
+
+.advanced-banner-animation6 .advanced-banner-ib-title 
+{
+  margin: 20px 0 10px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); 
+}
+
+.advanced-banner-animation6 .advanced-banner-ib-content,
+.advanced-banner-animation6 .advanced-banner-read-more,
+.advanced-banner-animation6 .advanced-banner-ib-desc::before 
+{
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0); 
+}
+
+.advanced-banner-animation6 .advanced-banner-read-more 
+{
+  margin-top: 10px; 
+}
+
+.advanced-banner-animation6:hover .advanced-banner-ib-title,
+.advanced-banner-animation6.active .advanced-banner-ib-title 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation6:hover .advanced-banner-ib-content,
+.advanced-banner-animation6.active .advanced-banner-ib-content,
+.advanced-banner-animation6:hover .advanced-banner-read-more,
+.advanced-banner-animation6.active .advanced-banner-read-more,
+.advanced-banner-animation6:hover .advanced-banner-ib-desc::before,
+.advanced-banner-animation6.active .advanced-banner-ib-desc::before 
+{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+
+.advanced-banner-animation8 img 
+{
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15); 
+}
+
+.advanced-banner-animation8:hover img,
+.advanced-banner-animation8.active img 
+{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+
+.advanced-banner-animation8 .advanced-banner-ib-title 
+{
+  margin-top: 20%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0); 
+}
+
+.advanced-banner-animation8:hover .advanced-banner-ib-title,
+.advanced-banner-animation8.active .advanced-banner-ib-title 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation8 .advanced-banner-ib-content 
+{
+  margin: 1em 0 0;
+  padding: 35px;
+  border: 1px solid #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
+  transform: translate3d(0, 20px, 0) scale(1.1); 
+}
+
+.advanced-banner-animation8:hover .advanced-banner-ib-content,
+.advanced-banner-animation8.active .advanced-banner-ib-content 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1); 
+}
+
+.advanced-banner-animation12 .advanced-banner-ib-desc::after 
+{
+  position: absolute;
+  content: "";
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  height: -webkit-calc(50% - 30px);
+  height: calc(50% - 30px);
+  border: 7px solid #fff;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0); 
+}
+
+.advanced-banner-animation12:hover .advanced-banner-ib-desc::after,
+.advanced-banner-animation12.active .advanced-banner-ib-desc::after 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation12 .advanced-banner-ib-desc 
+{
+  padding: 45px;
+  text-align: left; 
+}
+
+.advanced-banner-animation12 .advanced-banner-ib-content 
+{
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -100px, 0); 
+}
+
+.advanced-banner-animation12:hover .advanced-banner-ib-content,
+.advanced-banner-animation12.active .advanced-banner-ib-content 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation13 img 
+{
+  width: -webkit-calc(100% + 20px) !important;
+  width: calc(100% + 20px) !important;
+  max-width: -webkit-calc(100% + 20px) !important;
+  max-width: calc(100% + 20px) !important;
+  -webkit-transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, -webkit-transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-filter 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, filter 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.advanced-banner-animation13.zoomout img,
+.advanced-banner-animation13.scale img 
+{
+  -webkit-transform: translate3d(-10px, 0, 0) scale(1.1);
+  transform: translate3d(-10px, 0, 0) scale(1.1); 
+}
+
+.advanced-banner-animation13.none:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation1.none:hover img,
+.advanced-banner-animation4.none:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation13.zoomin:hover img,
+.advanced-banner-animation1.zoomin:hover img,
+.advanced-banner-animation4.zoomin:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0) scale(1.1);
+  transform: translate3d(0, 0, 0) scale(1.1); 
+}
+
+.advanced-banner-animation13.zoomout:hover img,
+.advanced-banner-animation1.zoomout:hover img,
+.advanced-banner-animation4.zoomout:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1); 
+}
+
+.advanced-banner-animation13.scale:hover img,
+.advanced-banner-animation1.scale:hover img,
+.advanced-banner-animation4.scale:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0) scale(1.2) rotate(5deg);
+  transform: translate3d(0, 0, 0) scale(1.2) rotate(5deg); 
+}
+
+.advanced-banner-animation13.grayscale:hover img,
+.advanced-banner-animation1.grayscale:hover img,
+.advanced-banner-animation4.grayscale:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+}
+
+.advanced-banner-animation13.blur:hover img,
+.advanced-banner-animation1.blur:hover img,
+.advanced-banner-animation4.blur:hover img 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-filter: blur(3px);
+  filter: blur(3px); 
+}
+
+.advanced-banner-animation13 .advanced-banner-ib-desc 
+{
+  text-align: left; 
+}
+
+.advanced-banner-animation13 .advanced-banner-ib-title 
+{
+  position: relative;
+  overflow: hidden;
+  padding: 5px 0 10px; 
+}
+  .advanced-banner-animation13 .advanced-banner-ib-title::after 
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+    -webkit-transform: translate3d(-101%, 0, 0);
+    transform: translate3d(-101%, 0, 0); 
+}
+
+.advanced-banner-animation13:hover .advanced-banner-ib-title::after,
+.advanced-banner-animation13.active .advanced-banner-ib-title::after 
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-animation13 .advanced-banner-ib-content,
+.advanced-banner-animation13 .advanced-banner-read-more 
+{
+  padding: 15px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); 
+}
+
+.advanced-banner-animation13:hover .advanced-banner-ib-content,
+.advanced-banner-animation13.active .advanced-banner-ib-content,
+.advanced-banner-animation13:hover .advanced-banner-read-more,
+.advanced-banner-animation13.active .advanced-banner-read-more 
+{
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); 
+}
+
+.advanced-banner-ib.advanced-banner-animation5 .advanced-banner-toggle-size 
+{
+  left: 50%;
+  width: auto !important;
+  height: 100%;
+  max-width: none;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); 
+}
+
+.advanced-banner-ib img 
+{
+  border: none;
+  padding: 0;
+  margin: 0; 
+}

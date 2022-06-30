@@ -1,0 +1,150 @@
+.smw-separator 
+{
+    display: inline-block;
+}
+
+.smw-separator-wrap 
+{
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.smw-separator-parent
+{
+    line-height: 0;
+}
+
+.smw-divider-text 
+{
+    white-space: nowrap;
+    margin: 0;
+}
+
+.smw-divider-text.pen:not([data-elementor-inline-editing-toolbar="advanced"]) 
+{
+    white-space: nowrap;
+}
+
+.smw-heading-align-center .smw-separator-wrap 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smw-heading-align-left .smw-separator-wrap 
+{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.smw-heading-align-right .smw-separator-wrap 
+{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.smw-separator-line 
+{
+    display: table-cell;
+    vertical-align:middle;
+}
+
+.smw-separator-line > span 
+{
+    display: block;
+    margin-top: 0;
+}
+
+.smw-divider-content 
+{
+    display: table-cell;
+}
+
+.smw-divider-content .smw-icon-wrap
+{
+    display: block;
+}
+
+.smw-heading-fill-gradient .smw-heading-text
+{
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.smw-divider-content .smw-icon-wrap .smw-icon i:before 
+{
+    position: static;
+}
+
+.smw-heading .smw-heading-text > a 
+{
+    color: inherit;
+    font-size: inherit;
+}
+
+.smw-heading .smw-heading-text.smw-size--small 
+{
+    font-size: 15px; 
+}
+
+.smw-heading .smw-heading-text.smw-size--medium 
+{
+    font-size: 19px; 
+}
+
+.smw-heading .smw-heading-text.smw-size--large 
+{
+    font-size: 29px; 
+}
+
+.smw-heading .smw-heading-text.smw-size--xl 
+{
+    font-size: 39px; 
+}
+
+.smw-heading .smw-heading-text.smw-size--xxl 
+{
+    font-size: 59px; 
+}
+
+.smw-stack-desktop-yes .smw-adv-heading-stack 
+{
+    display: block;
+}
+
+.smw-heading-wrapper .smw-heading .smw-heading-text 
+{
+    display: block;
+}
+
+.smw-icon-wrap .smw-icon 
+{
+ display:inline-block
+}
+
+.smw-stack-desktop-yes .smw-adv-heading-stack 
+{
+ display:block
+}
+
+.smw-text-holder 
+{
+ display:none
+}
+
+.smw-side-left,
+.smw-side-right 
+{
+ width:50%
+}

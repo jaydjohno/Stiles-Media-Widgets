@@ -1,0 +1,34 @@
+.smw-registration-message.elementor-alert 
+{
+ padding:0
+}
+
+.smw-reg-preview-message.elementor-alert.success,
+.smw-registration-message.elementor-alert.success 
+{
+ color:#3c763d;
+ background-color:#dff0d8;
+ border-color:#cae6be;
+ padding:15px;
+ margin-top:20px;
+}
+
+.smw-reg-preview-message.elementor-alert.error,
+.smw-registration-message.elementor-alert.error
+{
+ color:#a94442;
+ background-color:#f2dede;
+ border-color:#e8c4c4;
+ padding:15px;
+ margin-top:20px;
+}
+
+.smw-register-submit.smw-submit-disabled 
+{
+ pointer-events:none
+}
+
+.smw-rform-footer
+{
+    width:100%;
+}

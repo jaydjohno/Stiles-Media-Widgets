@@ -1,0 +1,626 @@
+.sm-dual-button 
+{
+    display: flex;
+    position: relative;
+}
+
+.sm-dual-button a.sm-button 
+{
+    transition: all 0.25s ease-in-out;
+    width: 100%;
+}
+
+.sm-dual-button a.sm-dual-button-a 
+{
+    background-color: #818a91;
+    color: #fff;
+}
+
+.sm-dual-button a.sm-dual-button-a:after,
+.sm-dual-button a.sm-dual-button-a:before 
+{
+    background-color: #697279;
+}
+
+.sm-dual-button a.sm-dual-button-b 
+{
+    background: #1e87f0;
+    color: #fff;
+}
+
+.sm-dual-button a.sm-dual-button-b:after,
+.sm-dual-button a.sm-dual-button-b:before 
+{
+    background: #0f6ecd;
+}
+
+.sm-dual-button span 
+{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
+    background: #fafaf8;
+    color: #444444;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sm-dual-button .sm-button-size-xs + span 
+{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.sm-dual-button .sm-button-size-sm + span 
+{
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 12px;
+}
+
+.sm-button 
+{
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    transition: all 0.3s ease-out;
+    z-index: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sm-button:hover 
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+.sm-button .sm-button-icon 
+{
+    position: relative;
+    display: inline-flex;
+    z-index: 0;
+}
+
+.sm-button .sm-button-icon .sm-button-a-icon-inner,
+.sm-button .sm-button-icon .sm-button-b-icon-inner,
+.sm-button .sm-button-icon .sm-button-icon-inner 
+{
+    display: inline-flex;
+}
+
+.sm-button .sm-button-icon i,
+.sm-button .sm-button-icon svg 
+{
+    width: 1em;
+}
+
+.sm-button .sm-button-text 
+{
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.sm-button:after 
+{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+    background: #666;
+}
+
+.sm-button:active 
+{
+    color: #fff;
+}
+
+.sm-button.sm-button-effect-a:after 
+{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.sm-button.sm-button-effect-a:hover:after,
+.sm-button.sm-button-effect-a:active:after 
+{
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-b:after 
+{
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.sm-button.sm-button-effect-b:hover:after 
+{
+    height: 100%;
+}
+
+.sm-button.sm-button-effect-b:active:after 
+{
+    height: 100%;
+}
+
+.sm-button.sm-button-effect-c:after 
+{
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sm-button.sm-button-effect-c:hover:after 
+{
+    width: 100%;
+}
+
+.sm-button.sm-button-effect-c:active:after 
+{
+    width: 100%;
+}
+
+.sm-button.sm-button-effect-d 
+{
+    overflow: hidden;
+}
+
+.sm-button.sm-button-effect-d:after 
+{
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.sm-button.sm-button-effect-d:hover:after 
+{
+    width: 90%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-d:active:after 
+{
+    width: 101%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-e 
+{
+    overflow: hidden;
+}
+
+.sm-button.sm-button-effect-e:after 
+{
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.sm-button.sm-button-effect-e:hover:after 
+{
+    height: 260%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-e:active:after 
+{
+    height: 400%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-f 
+{
+    overflow: hidden;
+}
+
+.sm-button.sm-button-effect-f:after 
+{
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.sm-button.sm-button-effect-f:hover:after 
+{
+    height: 75%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-f:active:after 
+{
+    height: 130%;
+    opacity: 1;
+}
+
+.sm-button.sm-button-effect-g 
+{
+    transition-timing-function: cubic-bezier(0.31, 1.13, 0.64, 0.94);
+}
+
+.sm-button.sm-button-effect-g .sm-button-content-wrapper 
+{
+    position: relative;
+}
+
+.sm-button.sm-button-effect-g .sm-button-content-wrapper .sm-button-text 
+{
+    display: block;
+    position: relative;
+}
+
+.sm-button.sm-button-effect-g .sm-button-content-wrapper .avdbtn-text 
+{
+    display: block;
+    transition: transform 0.5s, opacity 0.8s;
+    transition-timing-function: cubic-bezier(0.31, 1.13, 0.64, 0.94);
+}
+
+.sm-button.sm-button-effect-g .sm-button-content-wrapper .avdbtn-alt-text 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translate3d(0, 25%, 0);
+    transition: transform 0.5s, opacity 0.8s;
+    transition-timing-function: cubic-bezier(0.31, 1.13, 0.64, 0.94);
+}
+
+.sm-button.sm-button-effect-g:hover 
+{
+    background-color: transparent;
+    color: #666;
+}
+
+.sm-button.sm-button-effect-g:hover .avdbtn-alt-text 
+{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.sm-button.sm-button-effect-g:hover .avdbtn-text 
+{
+    opacity: 0;
+    transform: translate3d(0, -25%, 0);
+}
+
+.sm-button.sm-button-effect-h 
+{
+    transition: color 0.3s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.sm-button.sm-button-effect-h::after 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: #666;
+    z-index: -1;
+    transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+    transform-origin: 0 100%;
+    transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.sm-button.sm-button-effect-h:hover::after 
+{
+    opacity: 1;
+    background-color: #666;
+    transform: rotate3d(0, 0, 1, 0deg);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.sm-button.sm-button-effect-i 
+{
+    color: #fff;
+    background: #666;
+}
+
+.sm-button.sm-button-effect-i .sm-button-content-wrapper::before 
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    background: #666;
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    top: 0;
+    padding-top: 1em;
+}
+
+.sm-button.sm-button-effect-i .sm-button-content-wrapper::after 
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    background: #666;
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    bottom: 0;
+    line-height: 0;
+}
+
+.sm-button.sm-button-effect-i .sm-button-text 
+{
+    position: relative;
+    z-index: 1;
+}
+
+.sm-button.sm-button-effect-i:hover 
+{
+    color: #666;
+    background: #fff;
+}
+
+.sm-button.sm-button-effect-i:hover .sm-button-content-wrapper::before 
+{
+    transform: translate3d(0, -100%, 0);
+}
+
+.sm-button.sm-button-effect-i:hover .sm-button-content-wrapper::after 
+{
+    transform: translate3d(0, 100%, 0);
+}
+
+.sm-button 
+{
+    font-size:14px;
+    color:#666;
+    font-weight:700;
+}
+
+.sm-button.sm-button-size-xs 
+{
+    padding:5px 10px;
+    font-size:10px;
+    font-weight:400;
+}
+
+.sm-button.sm-button-size-sm 
+{
+    padding:10px 20px;
+    font-size:12px;
+}
+
+.sm-button.sm-button-size-md 
+{
+    padding:15px 30px;
+}
+
+.sm-button.sm-button-size-lg 
+{
+    padding:20px 30px;
+    font-size:16px
+}
+
+.sm-button.sm-button-size-xl 
+{
+    padding:25px 30px;
+    font-size:18px;
+}
+
+.elementor-align-justify .sm-button,
+.elementor-tablet-align-justify .sm-button,
+.elementor-mobile-align-justify .sm-button 
+{
+    width:100%;
+}
+
+.sm-element-align-wrapper 
+{
+    flex-wrap:wrap;
+    display:flex;
+    position:relative
+}
+
+.sm-element-align-center .sm-element-align-wrapper 
+{
+    justify-content:center
+}
+
+.sm-element-align-stretch .sm-element-align-wrapper .sm-element 
+{
+    flex-basis:100%
+}
+
+.sm-element-align-start .sm-element-align-wrapper 
+{
+    justify-content:flex-start
+}
+
+.sm-element-align-end .sm-element-align-wrapper 
+{
+    justify-content:flex-end
+}
+
+.sm-button-icon-align-left 
+{
+    float:left;
+}
+
+.sm-button-icon-align-right 
+{
+    float:right;
+}
+
+.sm-flex 
+{
+    display:flex;
+}
+.sm-flex-inline 
+{
+    display:inline-flex;
+}
+
+.sm-flex::before,
+.sm-flex::after,
+.sm-flex-inline::before,
+.sm-flex-inline::after 
+{
+    display:none;
+}
+
+.sm-flex-align-left 
+{
+    order:-1;
+}
+
+.sm-flex-align-right 
+{
+    order:99;
+}
+
+.sm-flex-stretch 
+{
+    align-items:stretch;
+}
+
+.sm-flex-top 
+{
+    align-items:flex-start;
+}
+
+.sm-flex-middle 
+{
+    align-items:center;
+}
+
+.sm-flex-bottom 
+{
+    align-items:flex-end;
+}
+
+.sm-flex-row 
+{
+    flex-direction:row;
+}
+
+.sm-flex-row-reverse 
+{
+    flex-direction:row-reverse;
+}
+
+.sm-flex-column 
+{
+    flex-direction:column;
+}
+
+.sm-flex-column-reverse 
+{
+    flex-direction:column-reverse;
+}
+
+.sm-flex-nowrap 
+{
+    flex-wrap:nowrap;
+}
+
+.sm-flex-wrap 
+{
+    flex-wrap:wrap;
+}
+
+.sm-flex-wrap-reverse 
+{
+    flex-wrap:wrap-reverse;
+}
+
+.sm-flex-wrap-stretch 
+{
+    align-content:stretch;
+}
+
+.sm-flex-wrap-top 
+{
+    align-content:flex-start;
+}
+
+.sm-flex-wrap-middle 
+{
+    align-content:center;
+}
+
+.sm-flex-wrap-bottom 
+{
+    align-content:flex-end;
+}
+
+.sm-flex-wrap-between 
+{
+    align-content:space-between;
+}
+
+.sm-flex-wrap-around 
+{
+    align-content:space-around;
+}
+
+.sm-flex-first 
+{
+    order:-1;
+}
+
+.sm-flex-last 
+{
+    order:99;
+}
+
+.sm-flex-left 
+{
+    justify-content:flex-start
+}
+
+.sm-flex-center 
+{
+    justify-content:center
+}
+
+.sm-flex-right 
+{
+    justify-content:flex-end
+}

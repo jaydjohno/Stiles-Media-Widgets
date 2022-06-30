@@ -1,0 +1,155 @@
+.stiles-add-cart
+{
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+}
+
+.quantity_container > div.quantity
+{
+    margin:0 !important;
+    height:40px;
+}
+
+.woocommerce div.product form.cart div.quantity 
+{
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.woocommerce .quantity .qty
+{
+    height:40px !important;
+}
+
+.minus-button
+{
+    width:64px;
+    float:left;
+}
+
+button.minus
+{
+    width:100%;
+}
+
+.plus-button
+{
+    width:64px;
+    float:left;
+}
+
+button.plus
+{
+    width:100%;
+}
+
+.button-container
+{
+    display:flex;
+}
+
+.stock-container
+{
+    display:flex;
+}
+
+.quantity-container
+{
+    display:flex;
+}
+
+a.reset_variations::before 
+{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	line-height: inherit;
+	vertical-align: baseline;
+	content: "\f021";
+	margin-right: 0.5407911001em;
+}
+
+a.reset_variations 
+{
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.single-product div.product table.variations select 
+{
+	max-width: 70%;
+	vertical-align: middle;
+}
+
+select 
+{
+	color: initial;
+	font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	max-width: 100%;
+}
+
+.single-product div.product table.variations th, .single-product div.product table.variations td 
+{
+	list-style: none;
+}
+
+.woocommerce div.product.elementor form.cart table.variations 
+{
+	--variation-select-width: 75%;
+}
+
+.woocommerce div.product.elementor form.cart table.variations td.value::before 
+{
+	content: "-";
+	color: transparent;
+	background-color: #fff;
+	position: relative;
+	max-width: 100%;
+	width: var(--variation-select-width);
+	margin-right: 1em;
+}
+
+.woocommerce div.product.elementor form.cart table.variations td.value::before, .woocommerce div.product.elementor form.cart table.variations td.value select 
+{
+	display: block;
+	font-size: 1em;
+	height: 2em;
+}
+
+.woocommerce div.product.elementor form.cart table.variations td.value 
+{
+	position: relative;
+	width: 75%;
+}
+
+.woocommerce div.product.elementor form.cart table.variations td.label 
+{
+	width: 25%;
+}
+
+.woocommerce div.product.elementor form.cart table.variations td 
+{
+	line-height: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0;
+}
+
+.single-product div.product table.variations th, .single-product div.product table.variations td 
+{
+	display: list-item;
+	padding: 0;
+	list-style: none;
+	background-color: transparent;
+}
+
+/* Template 1 */

@@ -1,0 +1,44 @@
+.sm_cart_table
+{
+  
+}
+
+.sm_cart_table .actions
+{
+  text-align: right;
+}
+
+.sm_cart_table .coupon
+{
+  float: left;
+}
+
+.woocommerce .cart.sm_cart_table .actions .button, .woocommerce .cart.sm_cart_table .actions input.button 
+{
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  width: auto;
+  min-height: 42px;
+}
+
+.cart.sm_cart_table .actions .button, .cart.sm_cart_table .actions input.button
+{
+  width: auto;
+  height: auto;
+}
+
+.cart.sm_cart_table .actions .coupon + .sm_update_cart_shop 
+{
+  float: right;
+}
+
+.shop_table.cart td.actions a.smbutton-continue-shopping 
+{
+  border: 1px solid currentColor;
+  padding: 7px 10px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  float: left;
+}

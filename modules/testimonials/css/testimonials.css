@@ -1,0 +1,98 @@
+.testimonials-box 
+{
+  width: 100%;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+  .testimonials-box .testimonials-author-info 
+{
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+  .testimonials-box .testimonials-person-name,
+  .testimonials-box .testimonials-company-name 
+{
+    font-weight: 600;
+    margin: 0; 
+}
+
+.testimonials-container 
+{
+  position: relative; 
+}
+
+.testimonials-img-wrapper 
+{
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-style: solid !important; 
+}
+  .testimonials-img-wrapper.circle 
+{
+    -webkit-border-radius: 50%;
+            border-radius: 50%; 
+}
+  .testimonials-img-wrapper.rounded 
+{
+    -webkit-border-radius: 15px;
+            border-radius: 15px; 
+}
+  .testimonials-img-wrapper img 
+{
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100% !important; 
+}
+
+.testimonials-content-wrapper 
+{
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center; 
+}
+
+.testimonials-clear-float 
+{
+  clear: both; 
+}
+
+.testimonials-upper-quote,
+.testimonials-lower-quote 
+{
+  position: absolute;
+  z-index: 1; 
+}

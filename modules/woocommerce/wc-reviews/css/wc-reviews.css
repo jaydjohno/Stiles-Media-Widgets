@@ -1,0 +1,14 @@
+.woocommerce-Reviews-title
+{
+    display:flex;
+}
+
+.woocommerce-Reviews-title > span
+{
+    margin-left:5px;
+}
+
+.comment-form-rating label
+{
+    margin-top:5px;
+}
